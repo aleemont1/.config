@@ -1,0 +1,31 @@
+{
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    },
+    "github.copilot.advanced": {
+        "inlineSuggestCount": 7,
+    },
+    "http.proxySupport": "off",
+    "update.mode": "manual",
+    "window.zoomLevel": 2,
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.external.linuxExec": "konsole",
+    "terminal.integrated.automationProfile.linux": {
+
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "terminal.explorerKind": "external",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "remoteHub.commitDirectlyWarning": "off",
+    "workbench.startupEditor": "none"
+}

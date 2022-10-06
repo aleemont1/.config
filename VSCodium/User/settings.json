@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.fontSize": 16,
+    "terminal.integrated.cursorBlinking": true,
+    "tabnine.experimentalAutoImports": true,
+    "scm.inputFontFamily": "NotoSansMono-Regular",
+    "editor.minimap.enabled": false
+}
