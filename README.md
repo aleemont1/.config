@@ -1,4 +1,4 @@
-# altair@aleemont: ~/.config
+# aleemont@altair: ~/.config
 
 ### KDE Config file Depends on:
 >[Konsave](https://github.com/Prayag2/konsave)
