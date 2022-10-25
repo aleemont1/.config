@@ -1,0 +1,14 @@
+*
+!.gitignore
+!.zshrc
+!*.knsv
+!./Code/*
+!./Code\ \- \ OSS/*
+!./VSCodium/*
+!./micro/*
+!./logid/logid.cfg
+!./autostart/*
+!./eww/*
+!./hypr/*
+!./rofi/*
+!./alacritty/*
