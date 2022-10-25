@@ -2,18 +2,16 @@
     "workbench.colorTheme": "Catppuccin Macchiato",
     "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
-
         "*": true,
         "yaml": false,
         "plaintext": false,
-        "markdown": false
+        "markdown": true
     },
     "github.copilot.advanced": {
         "inlineSuggestCount": 7,
     },
     "http.proxySupport": "off",
     "update.mode": "manual",
-    "window.zoomLevel": 2,
     "workbench.settings.editor": "json",
     "workbench.settings.useSplitJSON": true,
     "security.workspace.trust.untrustedFiles": "open",
@@ -27,5 +25,14 @@
     "terminal.explorerKind": "external",
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "remoteHub.commitDirectlyWarning": "off",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": 1,
+    "cSpell.language": "en,it",
+    "cSpell.userWords": [
+        "unibo"
+    ],
+    "git.confirmSync": false,
+    "[java]": {
+        "editor.defaultFormatter": "mwpb.java-prettier-formatter"
+    }
 }
