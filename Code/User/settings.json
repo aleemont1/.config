@@ -26,9 +26,10 @@
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "remoteHub.commitDirectlyWarning": "off",
     "workbench.startupEditor": "none",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 3,
     "cSpell.language": "en,it",
     "cSpell.userWords": [
+        "ELEMS",
         "unibo"
     ],
     "git.confirmSync": false,

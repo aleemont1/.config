@@ -250,3 +250,4 @@
            :windowtype "dock"
            :wm-ignore false
 (float_mplayer))
+
