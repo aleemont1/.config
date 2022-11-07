@@ -10,6 +10,6 @@
 !./logid/logid.cfg
 !./autostart/*
 !./eww/*
-!./hypr/*
-!./rofi/*
+!./hypr/
+!./rofi/
 !./alacritty/*
