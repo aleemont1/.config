@@ -69,8 +69,10 @@ run_cmd() {
 			mpc -q pause
 			amixer set Master mute
 			systemctl suspend
+		elif [[ $1 == '--lock' ]]; then
+			systemctl suspend && swaylock -f --screenshots --clock --indicator --indicator-radius 150 --indicator-thickness 7 --effect-blur 100x10 --effect-vignette 0.5:0.5 --ring-color 1e1e2e --key-hl-color b4befe --line-color cba6f7 --inside-color 00000000 --separator-color 313244  --fade-in 0.2			
 		elif [[ $1 == '--logout' ]]; then
-			loginctl terminate-user `whoami`
+			sudo -H systemctl restart sddm
 		fi
 	else
 		exit 0
@@ -87,11 +89,7 @@ case ${chosen} in
 		run_cmd --reboot
         ;;
     $lock)
-		if [[ -x '/usr/bin/betterlockscreen' ]]; then
-			betterlockscreen -l
-		elif [[ -x '/usr/bin/i3lock' ]]; then
-			i3lock
-		fi
+		run_cmd --lock
         ;;
     $suspend)
 		run_cmd --suspend

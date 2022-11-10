@@ -1,8 +1,8 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: mononoki Nerd Font;
-    font-size: 14px;
+    font-family: Iosevka Nerd Font;
+    font-size: 15px;
     min-height: 0;
 }
 
@@ -13,7 +13,7 @@ window#waybar {
 
 tooltip {
 	background: #11111b;
-	border-radius: 15px;
+	border-radius: 8px;
 	border-width: 2px;
 	border-style: solid;
 	border-color: #b4befe
@@ -25,7 +25,7 @@ tooltip {
 }
 
 #workspaces button.focused {
-    color: @11111b;
+    color: #11111b;
     background-color: #f5c2e7;
     border-radius: 15px;
 }

@@ -1,3 +1,4 @@
+
 /**
  *
  * Author : Aditya Shakya (adi1090x)
@@ -13,4 +14,5 @@
     selected:       #7AA2F7FF;
     active:         #ABE9B3FF;
     urgent:         #F28FADFF;
+    font:	Iosevka Nerd Font;
 }

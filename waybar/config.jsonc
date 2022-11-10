@@ -43,7 +43,7 @@
         "format": "{icon} {}",
         "max-length": 40,
         "format-icons": {
-            "spt": " ",
+            "spotifyd": " ",
             "default": " "
         },
         "escape": true,
@@ -52,7 +52,8 @@
 	"custom/date": {
     "format": "  {}",
 		"interval": 3600,
-		"exec": "$HOME/.config/waybar/waybar-date.sh"
+		"exec": "$HOME/.config/waybar/waybar-date.sh",
+	"on-click": ""
 	},
   "custom/notification": {
     "tooltip": false,
@@ -72,7 +73,8 @@
   },
 	"clock": {
 		"format": "  {:%H:%M} ",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "on-click": ""
 	},
 	"network": {
         	"format-wifi": "  {essid}",
@@ -113,6 +115,7 @@
 			"charging": "",
           	"default": ["", "", "", "", ""],
           },
-          "max-length": 25
+          "max-length": 25,
+          "on-click": ""
       }
 }
