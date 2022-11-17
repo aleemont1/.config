@@ -87,8 +87,8 @@ OR [Build it from source](https://github.com/davatorium/rofi) \
 Copy rofi/ in ~/.config \
 `cp -r rofi ~/.config` 
 
-If you want to install Catppuccin-mocha theme you'll need to retreive specific repositories for single applications \
-starting from [Catppuccin's repos](https://github.com/catppuccin) and then thinker with qt5ct and lxappearance to \
+If you want to install Catppuccin-mocha theme you'll need to retreive specific repositories for single applications
+starting from [Catppuccin's repos](https://github.com/catppuccin) and then thinker with qt5ct and lxappearance to 
 set your theme globally (or per-app). Here's some reference from [DistroTube's yt channel](youtube.com/watch?v=x_Mid3_1Uzo)
 
 ## Contributing:
