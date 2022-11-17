@@ -43,11 +43,10 @@
         "format": "{icon} {}",
         "max-length": 40,
         "format-icons": {
-            "spotifyd": " ",
             "default": " "
-        },
-        "escape": true,
-        "exec": "$HOME/.config/waybar/scroll_spotify_status.sh"
+         },
+         "escape": true,
+         "exec": "$HOME/.config/waybar/scroll_spotify_status.sh"
     },
 	"custom/date": {
     "format": "  {}",
