@@ -3,13 +3,15 @@
 !.gitattributes
 !.zshrc
 !*.knsv
-!./Code/*
-!./Code\ \- \ OSS/*
-!./VSCodium/*
-!./micro/*
-!./logid/logid.cfg
-!./autostart/*
-!./eww/*
-!./hypr/
-!./rofi/
-!./alacritty/*
+!Code/*
+!Code\ \- \ OSS/*
+!VSCodium/*
+!micro/colorschemes/
+!micro/plug
+!micro/bindings.json
+!micro/settings.json
+!logid/logid.cfg
+!autostart/*
+!hypr
+!rofi
+!alacritty/*

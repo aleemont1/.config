@@ -5,6 +5,10 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+if [ -d "$HOME/.local/bin" ] ;
+  then PATH="$HOME/.local/bin:$PATH"
+fi
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/zsh/.histfile
 HISTSIZE=1000
@@ -68,9 +72,21 @@ alias cc='codium'
 alias cod=cc
 
 #Systemctl aliases 
-alias systemctl='sudo systemctl'
-alias start='sudo systemctl start'
-alias enable='sudo systemctl enable'
-alias stop='sudo systemctl stop'
-alias restart='sudo systemctl restart'
-alias disable='sudo systemctl disable'
+#alias systemctl='sudo systemctl'
+#alias start='sudo systemctl start'
+#alias enable='sudo systemctl enable'
+#alias stop='sudo systemctl stop'
+#alias restart='sudo systemctl restart'
+#alias disable='sudo systemctl disable'
+
+#Hyprland wm
+alias hypr="micro /home/aleemont/.config/hypr/hyprland.conf"
+alias confhypr=hypr
+
+#Get Errors
+alias jctl="journalctl -p 3 -xb"
+
+#Rick Roll
+alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
+
+#export QT_QPA_PLATFORMTHEME=qt5ct
