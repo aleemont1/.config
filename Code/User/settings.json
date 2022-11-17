@@ -5,7 +5,7 @@
         "*": true,
         "yaml": false,
         "plaintext": false,
-        "markdown": true
+        "markdown": false
     },
     "github.copilot.advanced": {
         "inlineSuggestCount": 7,
@@ -26,7 +26,6 @@
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "remoteHub.commitDirectlyWarning": "off",
     "workbench.startupEditor": "none",
-    "window.zoomLevel": 3,
     "cSpell.language": "en,it",
     "cSpell.userWords": [
         "ELEMS",
@@ -35,5 +34,6 @@
     "git.confirmSync": false,
     "[java]": {
         "editor.defaultFormatter": "mwpb.java-prettier-formatter"
-    }
+    },
+    "window.zoomLevel": 2
 }
