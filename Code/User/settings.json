@@ -34,6 +34,5 @@
     "git.confirmSync": false,
     "[java]": {
         "editor.defaultFormatter": "mwpb.java-prettier-formatter"
-    },
-    "window.zoomLevel": 2
+    }
 }

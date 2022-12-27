@@ -1,8 +1,8 @@
 {
    "position": "bottom", 
    "layer":"top",
-   "height": 60,
-   "modules-center": ["wlr/workspaces", "tray", "custom/notification", "custom/media", "network", "custom/updates", "battery" , "pulseaudio", "custom/date", "clock"],
+   "height": 55,
+   "modules-center": ["wlr/workspaces", "tray", "custom/notification", "custom/media", "network", "battery", "pulseaudio" , "custom/date", "clock"],
 	"wlr/workspaces": {
 		"disable-scroll": false,
 		"all-outputs": true,
@@ -36,7 +36,7 @@
       }
      },
   "tray": {
-    "icon-size": 13,
+    "icon-size": 20,
     "spacing": 10
   },
   "custom/media": {
