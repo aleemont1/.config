@@ -1,3 +1,6 @@
+source ~/zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
+#source /zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -90,3 +93,5 @@ alias jctl="journalctl -p 3 -xb"
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
 
 #export QT_QPA_PLATFORMTHEME=qt5ct
+export XDG_CURRENT_DESKTOP=Unity
+
